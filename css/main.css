@@ -17,6 +17,11 @@ header {
   background-color: #dcd4cd;
 }
 
+.link-card {
+  border-radius: 3px;
+  border: 2px 3px;
+}
+
 h2 {
   font-family: 'Dosis';
   color: #512200;
