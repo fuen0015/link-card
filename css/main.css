@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  margin: 0;
   background-color: #f0eee8;
 }
 
@@ -20,11 +19,11 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #9a816d;
-  margin: 1em;
+  display: block;
 }
 
-h2 {
-  font-family: 'Dosis', sans-serif;
+.link-card h2 {
+  font-family: Dosis, sans-serif;
   color: #512200;
   margin: 1rem;
 }
@@ -35,6 +34,7 @@ dl {
   padding: 0;
   padding-bottom: 1em;
   border-bottom: 2px solid #9a816d;
+  font-size: .875rem;
 }
 
 dt {
@@ -58,7 +58,8 @@ dd {
   border-radius: 8px;
   background-color: #785439;
   color: #fff;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
   margin: 1em;
 }
 
@@ -69,7 +70,7 @@ p {
   padding-bottom: 1rem;
 }
 
-div:nth-child(4){
+div:nth-child(4) {
   text-align: center;
 }
 
