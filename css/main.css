@@ -33,6 +33,7 @@ dl {
   color: #512200;
   margin: 1em;
   padding: 0;
+  padding-bottom: 1em;
   width: 100%
   overflow: hidden;
 }
@@ -66,9 +67,21 @@ p {
   color: #512200;
   margin: 1em;
   border-bottom: 2px solid #9a816d;
+  padding-bottom: 1rem;
 
 }
 
 div:nth-child(4){
   text-align: center;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  border-color: #9a816d;
+  color: #512200;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+  color: #f0eee8;
 }
