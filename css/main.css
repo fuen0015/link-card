@@ -13,23 +13,25 @@ body {
   background-color: #f0eee8;
 }
 
-header {
-  background-color: #dcd4cd;
-}
-
 .link-card {
-  border-radius: 3px;
+  border-radius: 8px;
   border: 2px 3px;
+  background-color: #dcd4cd;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  margin: 1em;
 }
 
 h2 {
   font-family: 'Dosis';
   color: #512200;
+  margin: 1rem;
 }
 
 dl {
   color: #512200;
-  margin: 0;
+  margin: 1em;
   padding: 0;
   width: 100%
   overflow: hidden;
@@ -57,8 +59,16 @@ dd {
   background-color: #785439;
   color: #fff;
   font-family: 'Dosis';
+  margin: 1em;
 }
 
 p {
   color: #512200;
+  margin: 1em;
+  border-bottom: 2px solid #9a816d;
+
+}
+
+div:nth-child(4){
+  text-align: center;
 }
